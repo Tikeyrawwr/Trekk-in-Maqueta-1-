@@ -1,0 +1,45 @@
+.navbar{
+  padding-left: 7%;
+}
+ div .ordentrekking{
+   z-index: 1;
+ position: absolute;
+ width: 30%;
+ margin-left: 5%;
+ margin-top: 5%;
+}
+.Caracteristicas{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card{
+  width: 104%;
+}
+
+.line{
+  border: 1px solid #9c9c9c;
+  margin-left: 10%;
+margin-right: 10%;
+margin-bottom: 10%;
+margin-top: 10%;
+}
+
+ul{
+line-height: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+div .ordentrekking {
+  width: 87%;
+  margin-left: 5%;
+  margin-top: 5%;
+  display: grid;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+ .card2_responsive {
+margin-top: 1.5rem;
+  }
+}
