@@ -10145,6 +10145,14 @@ nav ul > li {
   margin-left: 190px;
 }
 
+@media only screen and (max-width: 600px) {
+  .topnav {
+    overflow: hidden;
+    display: block;
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+}
 footer {
   display: flex;
   background-color: #221D23;
@@ -10489,6 +10497,20 @@ footer .marca {
   height: 829px;
 }
 
+.imagen_precios {
+  vertical-align: middle;
+  border-style: none;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .imagen_precios2 {
+    margin-right: 0;
+    margin-left: 0;
+    height: 1411px;
+    width: -moz-max-content;
+  }
+}
 .precios_montaña_card {
   z-index: 1;
   position: absolute;
@@ -10518,15 +10540,6 @@ footer .marca {
 @media only screen and (max-width: 600px) {
   .barras {
     width: 80%;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .imagen_precios_responsive {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 0;
-    margin-left: 0;
-    height: 1411px;
   }
 }
 @media only screen and (max-width: 600px) {

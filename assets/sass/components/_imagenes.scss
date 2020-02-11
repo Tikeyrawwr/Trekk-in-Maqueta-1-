@@ -12,6 +12,21 @@ flex-basis: 30%;
   height: 829px;
 }
 
+.imagen_precios{
+  vertical-align: middle;
+  border-style: none;
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+.imagen_precios2{
+  margin-right: 0;
+margin-left: 0;
+height: 1411px;
+width: -moz-max-content;
+}
+}
+
+
 
 //
 .precios_montaña_card{
@@ -50,15 +65,7 @@ margin-top: 85%;
 }
 
 
-@media only screen and (max-width: 600px) {
-.imagen_precios_responsive{
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: 0;
-  margin-left: 0;
-height: 1411px;
-}
-}
+
 
 
 
